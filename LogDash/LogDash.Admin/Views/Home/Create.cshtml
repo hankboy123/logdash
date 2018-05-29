@@ -1,0 +1,27 @@
+﻿@{
+    Layout = null;
+
+}
+@model Web.Models.aa
+<div class="modal-header">
+    <h4 class="modal-title">TEST创建</h4>
+</div>
+
+<div class="modal-body">
+    <label class="col-sm-3 control-label no-padding-right ">username</label>
+    @Html.TextBoxFor(model => model.username, new { @class = "col-xs-10 col-sm-5" })
+</div>
+<div class="modal-body">
+    <label class="col-sm-3 control-label no-padding-right ">IsHotPush</label>
+    @Html.TextBoxFor(model => model.IsHotPush, new { @class = "col-xs-10 col-sm-5" })
+</div>
+<div class="modal-body">
+    <label class="col-sm-3 control-label no-padding-right ">SmallIconUrl</label>
+    @Html.TextBoxFor(model => model.SmallIconUrl, new { @class = "col-xs-10 col-sm-5" })
+</div>
+<div class="modal-body">
+    <label class="col-sm-3 control-label no-padding-right ">GamePopularity</label>
+    @Html.TextBoxFor(model => model.GamePopularity, new { @class = "col-xs-10 col-sm-5"})
+</div>
+
+

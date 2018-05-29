@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogDash", "LogDash\LogDash.csproj", "{F3B1DBA3-00C7-4B35-8EC3-19D40FC8B156}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogDash.Admin", "LogDash.Admin\LogDash.Admin.csproj", "{2382866D-3F35-4DFE-8DCD-44FE38BE0824}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogDash.Infrastructure", "LogDash.Infrastructure\LogDash.Infrastructure.csproj", "{ACB8CBF7-F280-4504-99DD-8E0D89903C26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogDash.Model", "LogDash.Model\LogDash.Model.csproj", "{B17527BB-AD53-4684-A871-7CC7B1617D5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogDash.Domain", "LogDash.Domain\LogDash.Domain.csproj", "{0692ADA1-5CD8-45CA-95B8-9BE7006D8720}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3B1DBA3-00C7-4B35-8EC3-19D40FC8B156}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3B1DBA3-00C7-4B35-8EC3-19D40FC8B156}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3B1DBA3-00C7-4B35-8EC3-19D40FC8B156}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3B1DBA3-00C7-4B35-8EC3-19D40FC8B156}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2382866D-3F35-4DFE-8DCD-44FE38BE0824}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2382866D-3F35-4DFE-8DCD-44FE38BE0824}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2382866D-3F35-4DFE-8DCD-44FE38BE0824}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2382866D-3F35-4DFE-8DCD-44FE38BE0824}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACB8CBF7-F280-4504-99DD-8E0D89903C26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACB8CBF7-F280-4504-99DD-8E0D89903C26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACB8CBF7-F280-4504-99DD-8E0D89903C26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACB8CBF7-F280-4504-99DD-8E0D89903C26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B17527BB-AD53-4684-A871-7CC7B1617D5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B17527BB-AD53-4684-A871-7CC7B1617D5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B17527BB-AD53-4684-A871-7CC7B1617D5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B17527BB-AD53-4684-A871-7CC7B1617D5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0692ADA1-5CD8-45CA-95B8-9BE7006D8720}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0692ADA1-5CD8-45CA-95B8-9BE7006D8720}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0692ADA1-5CD8-45CA-95B8-9BE7006D8720}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0692ADA1-5CD8-45CA-95B8-9BE7006D8720}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EEFBC932-37E6-44A1-A700-350DFA9E7E46}
+	EndGlobalSection
+EndGlobal

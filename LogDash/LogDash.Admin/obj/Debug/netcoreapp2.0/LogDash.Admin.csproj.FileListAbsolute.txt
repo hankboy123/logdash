@@ -1,0 +1,15 @@
+D:\Project\LogDash\LogDash.Admin\bin\Debug\netcoreapp2.0\LogDash.Admin.deps.json
+D:\Project\LogDash\LogDash.Admin\bin\Debug\netcoreapp2.0\LogDash.Admin.runtimeconfig.json
+D:\Project\LogDash\LogDash.Admin\bin\Debug\netcoreapp2.0\LogDash.Admin.runtimeconfig.dev.json
+D:\Project\LogDash\LogDash.Admin\bin\Debug\netcoreapp2.0\LogDash.Admin.dll
+D:\Project\LogDash\LogDash.Admin\bin\Debug\netcoreapp2.0\LogDash.Admin.pdb
+D:\Project\LogDash\LogDash.Admin\obj\Debug\netcoreapp2.0\LogDash.Admin.csprojResolveAssemblyReference.cache
+D:\Project\LogDash\LogDash.Admin\obj\Debug\netcoreapp2.0\LogDash.Admin.csproj.CoreCompileInputs.cache
+D:\Project\LogDash\LogDash.Admin\obj\Debug\netcoreapp2.0\LogDash.Admin.AssemblyInfoInputs.cache
+D:\Project\LogDash\LogDash.Admin\obj\Debug\netcoreapp2.0\LogDash.Admin.AssemblyInfo.cs
+D:\Project\LogDash\LogDash.Admin\obj\Debug\netcoreapp2.0\LogDash.Admin.dll
+D:\Project\LogDash\LogDash.Admin\obj\Debug\netcoreapp2.0\LogDash.Admin.pdb
+D:\Project\LogDash\LogDash.Admin\bin\Debug\netcoreapp2.0\LogDash.Infrastructure.dll
+D:\Project\LogDash\LogDash.Admin\bin\Debug\netcoreapp2.0\LogDash.Model.dll
+D:\Project\LogDash\LogDash.Admin\bin\Debug\netcoreapp2.0\LogDash.Infrastructure.pdb
+D:\Project\LogDash\LogDash.Admin\bin\Debug\netcoreapp2.0\LogDash.Model.pdb

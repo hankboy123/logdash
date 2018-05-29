@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" style="background-color:white;">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>增删改查模板</title>
+    <link href="~/Content/assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/Content/assets/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="~/Content/assets/css/jquery-ui-1.10.3.custom.min.css" />
+    @*<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300" />*@
+    <link rel="stylesheet" href="~/Content/assets/css/ace.min.css" />
+    <link rel="stylesheet" href="~/Content/assets/css/ace-rtl.min.css" />
+    <link rel="stylesheet" href="~/Content/assets/css/ace-skins.min.css" />
+    <script src="~/Content/assets/js/ace-extra.min.js"></script>
+    <style>
+
+        .center-vertical {
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .modal-header {
+            cursor: move;
+        }
+    </style>
+</head>
+<body>
+    <div class="page-content">
+        <div class="page-header">
+            <h1>
+                <small>
+                    @RenderSection("NavBar", required: false)
+                </small>
+            </h1>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+    @*datatable loading遮罩层*@
+    <div id="backdrophidden" style="z-index:888888;" class="modal-backdrop in">
+        <div class="text-center center-vertical">
+            <img style="vertical-align: middle;" class="center-vertical" src="~/Content/assets/images/index.svg">
+        </div>
+    </div>
+</body>
+<!-- 页脚  -->
+</html>
+<script type="text/javascript">
+    window.jQuery || document.write("<script src='/Content/assets/js/jquery-2.0.3.min.js'>" + "<" + "/script>");
+</script>
+<script type="text/javascript">
+    if ("ontouchend" in document) document.write("<script src='/Content/assets/js/jquery.mobile.custom.min.js'>" + "<" + "/script>");
+</script>
+<script src="~/Content/assets/js/bootstrap.min.js"></script>
+<script src="~/Content/assets/js/typeahead-bs2.min.js"></script>
+<!-- page specific plugin scripts -->
+<script src="~/Content/assets/js/jquery-ui-1.10.3.custom.min.js"></script>
+<script src="~/Content/assets/js/jquery.ui.touch-punch.min.js"></script>
+<script src="~/Content/assets/js/markdown/markdown.min.js"></script>
+<script src="~/Content/assets/js/markdown/bootstrap-markdown.min.js"></script>
+<script src="~/Content/assets/js/jquery.hotkeys.min.js"></script>
+<script src="~/Content/dist/bootstrap-wysiwyg.js"></script>
+<script src="~/Content/assets/js/bootbox.min.js"></script>
+<!-- ace scripts -->
+<script src="~/Content/assets/js/ace-elements.min.js"></script>
+<script src="~/Content/assets/js/ace.min.js"></script>
+<script>
+</script>
+<script>
+    $(document).ready(function () {
+        if ($(".draggable").length > 0) {
+            $(".draggable").draggable();
+        }
+    });
+</script>
+@RenderSection("Scripts", required: false)

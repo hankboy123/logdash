@@ -1,0 +1,25 @@
+﻿@{
+    Layout = null;
+
+}
+@model Web.Models.aa
+<div class="modal-header">
+    <h4 class="modal-title">TEST详情</h4>
+</div>
+<div class="modal-body">
+    <label class="col-sm-3 control-label no-padding-right" for="form-field-1">username</label>
+    @Html.Label("username", Model.username, new { @class = "col-xs-10 col-sm-5" })
+</div>
+<div class="modal-body">
+    <label class="col-sm-3 control-label no-padding-right" for="form-field-1">IsHotPush</label>
+    @Html.Label("IsHotPush", Model.IsHotPush.ToString(), new { @class = "col-xs-10 col-sm-5" })
+</div>
+<div class="modal-body">
+    <label class="col-sm-3 control-label no-padding-right" for="form-field-1">IsHotPush</label>
+    @Html.Label("SmallIconUrl", Model.SmallIconUrl, new { @class = "col-xs-10 col-sm-5" })
+</div>
+<div class="modal-body">
+    <label class="col-sm-3 control-label no-padding-right" for="form-field-1">GamePopularity</label>
+    @Html.Label("GamePopularity", Model.GamePopularity.ToString(), new { @class = "col-xs-10 col-sm-5" })
+</div>
+@Html.HiddenFor(model => model.id)

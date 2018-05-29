@@ -1,0 +1,9 @@
+D:\Project\LogDash\LogDash.Model\bin\Debug\netcoreapp2.0\LogDash.Model.deps.json
+D:\Project\LogDash\LogDash.Model\bin\Debug\netcoreapp2.0\LogDash.Model.dll
+D:\Project\LogDash\LogDash.Model\bin\Debug\netcoreapp2.0\LogDash.Model.pdb
+D:\Project\LogDash\LogDash.Model\obj\Debug\netcoreapp2.0\LogDash.Model.csprojResolveAssemblyReference.cache
+D:\Project\LogDash\LogDash.Model\obj\Debug\netcoreapp2.0\LogDash.Model.csproj.CoreCompileInputs.cache
+D:\Project\LogDash\LogDash.Model\obj\Debug\netcoreapp2.0\LogDash.Model.AssemblyInfoInputs.cache
+D:\Project\LogDash\LogDash.Model\obj\Debug\netcoreapp2.0\LogDash.Model.AssemblyInfo.cs
+D:\Project\LogDash\LogDash.Model\obj\Debug\netcoreapp2.0\LogDash.Model.dll
+D:\Project\LogDash\LogDash.Model\obj\Debug\netcoreapp2.0\LogDash.Model.pdb
