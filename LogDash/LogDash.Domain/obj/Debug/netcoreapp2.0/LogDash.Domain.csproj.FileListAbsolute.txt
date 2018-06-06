@@ -11,3 +11,16 @@ D:\Project\LogDash\LogDash.Domain\obj\Debug\netcoreapp2.0\LogDash.Domain.Assembl
 D:\Project\LogDash\LogDash.Domain\obj\Debug\netcoreapp2.0\LogDash.Domain.AssemblyInfo.cs
 D:\Project\LogDash\LogDash.Domain\obj\Debug\netcoreapp2.0\LogDash.Domain.dll
 D:\Project\LogDash\LogDash.Domain\obj\Debug\netcoreapp2.0\LogDash.Domain.pdb
+D:\Project\gitlab\LogDash\logdash\LogDash\LogDash.Domain\bin\Debug\netcoreapp2.0\LogDash.Domain.deps.json
+D:\Project\gitlab\LogDash\logdash\LogDash\LogDash.Domain\bin\Debug\netcoreapp2.0\LogDash.Domain.dll
+D:\Project\gitlab\LogDash\logdash\LogDash\LogDash.Domain\bin\Debug\netcoreapp2.0\LogDash.Domain.pdb
+D:\Project\gitlab\LogDash\logdash\LogDash\LogDash.Domain\bin\Debug\netcoreapp2.0\LogDash.Infrastructure.dll
+D:\Project\gitlab\LogDash\logdash\LogDash\LogDash.Domain\bin\Debug\netcoreapp2.0\LogDash.Model.dll
+D:\Project\gitlab\LogDash\logdash\LogDash\LogDash.Domain\bin\Debug\netcoreapp2.0\LogDash.Infrastructure.pdb
+D:\Project\gitlab\LogDash\logdash\LogDash\LogDash.Domain\bin\Debug\netcoreapp2.0\LogDash.Model.pdb
+D:\Project\gitlab\LogDash\logdash\LogDash\LogDash.Domain\obj\Debug\netcoreapp2.0\LogDash.Domain.csprojResolveAssemblyReference.cache
+D:\Project\gitlab\LogDash\logdash\LogDash\LogDash.Domain\obj\Debug\netcoreapp2.0\LogDash.Domain.csproj.CoreCompileInputs.cache
+D:\Project\gitlab\LogDash\logdash\LogDash\LogDash.Domain\obj\Debug\netcoreapp2.0\LogDash.Domain.AssemblyInfoInputs.cache
+D:\Project\gitlab\LogDash\logdash\LogDash\LogDash.Domain\obj\Debug\netcoreapp2.0\LogDash.Domain.AssemblyInfo.cs
+D:\Project\gitlab\LogDash\logdash\LogDash\LogDash.Domain\obj\Debug\netcoreapp2.0\LogDash.Domain.dll
+D:\Project\gitlab\LogDash\logdash\LogDash\LogDash.Domain\obj\Debug\netcoreapp2.0\LogDash.Domain.pdb

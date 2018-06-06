@@ -14,16 +14,12 @@ namespace LogDash.Domain
         /// <summary>
         /// 默认走mongodb存储日志
         /// </summary>
-        public LogWriter()
-        {
-            _recorder = new MongoLogRecordDriver();
-
-        }
-
         public LogWriter(ILogRecordDriver recorder)
         {
-            _recorder = recorder;
+            _recorder = recorder;// new MongoLogRecordDriver();
+
         }
+        
 
         public void Write(LogWritePara para)
         {

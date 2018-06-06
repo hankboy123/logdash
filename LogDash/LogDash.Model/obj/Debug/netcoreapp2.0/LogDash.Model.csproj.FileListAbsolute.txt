@@ -7,3 +7,12 @@ D:\Project\LogDash\LogDash.Model\obj\Debug\netcoreapp2.0\LogDash.Model.AssemblyI
 D:\Project\LogDash\LogDash.Model\obj\Debug\netcoreapp2.0\LogDash.Model.AssemblyInfo.cs
 D:\Project\LogDash\LogDash.Model\obj\Debug\netcoreapp2.0\LogDash.Model.dll
 D:\Project\LogDash\LogDash.Model\obj\Debug\netcoreapp2.0\LogDash.Model.pdb
+D:\Project\gitlab\LogDash\logdash\LogDash\LogDash.Model\bin\Debug\netcoreapp2.0\LogDash.Model.deps.json
+D:\Project\gitlab\LogDash\logdash\LogDash\LogDash.Model\bin\Debug\netcoreapp2.0\LogDash.Model.dll
+D:\Project\gitlab\LogDash\logdash\LogDash\LogDash.Model\bin\Debug\netcoreapp2.0\LogDash.Model.pdb
+D:\Project\gitlab\LogDash\logdash\LogDash\LogDash.Model\obj\Debug\netcoreapp2.0\LogDash.Model.csprojResolveAssemblyReference.cache
+D:\Project\gitlab\LogDash\logdash\LogDash\LogDash.Model\obj\Debug\netcoreapp2.0\LogDash.Model.csproj.CoreCompileInputs.cache
+D:\Project\gitlab\LogDash\logdash\LogDash\LogDash.Model\obj\Debug\netcoreapp2.0\LogDash.Model.AssemblyInfoInputs.cache
+D:\Project\gitlab\LogDash\logdash\LogDash\LogDash.Model\obj\Debug\netcoreapp2.0\LogDash.Model.AssemblyInfo.cs
+D:\Project\gitlab\LogDash\logdash\LogDash\LogDash.Model\obj\Debug\netcoreapp2.0\LogDash.Model.dll
+D:\Project\gitlab\LogDash\logdash\LogDash\LogDash.Model\obj\Debug\netcoreapp2.0\LogDash.Model.pdb

@@ -13,13 +13,23 @@ namespace LogDash.Controllers
     [Route("api/log")]
     public class LogController : Controller
     {
+        public ILogWriter _writer;
+
+        public IServiceProvider _provider;
+
+        public LogController(IServiceProvider provider)
+        {
+            _provider = provider;
+        }
+
         [HttpPost("record")]
         public LogResult Record()
         {
             LogResult result = new LogResult(ResultCode.Fail,"");
             try
             {
-                ILogWriter writer = new LogWriter();
+                ILogWriter writer = (ILogWriter)_provider.GetService(typeof(ILogWriter));// new LogWriter();
+
                 writer.Write(new LogWritePara(Filter(Request.Form)));
                 result.Code = ResultCode.Success;
             }
