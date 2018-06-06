@@ -15,6 +15,12 @@ namespace LogDash
     {
         public Startup(IConfiguration configuration)
         {
+            var builder = new ConfigurationBuilder()
+           .SetBasePath(AppContext.BaseDirectory)
+           .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
+           .AddEnvironmentVariables();
+            Configuration = builder.Build();
+
             Configuration = configuration;
         }
 

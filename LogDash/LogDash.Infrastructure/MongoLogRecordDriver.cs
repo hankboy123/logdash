@@ -16,8 +16,9 @@ namespace LogDash.Infrastructure
     {
         public void Write(LogEntity entity)
         {
-            ISplitTableStrategy splitTableStrategy = new MongoSplitTableStrategy("LogRecord", entity.AppId, DateTime.Now.ToString("yyyyMM"));
-            var mongodb = MongoDBHelper.GetMongoDB();
+            string dbName = "LogRecord";
+            ISplitTableStrategy splitTableStrategy = new MongoSplitTableStrategy(dbName, entity.AppId, DateTime.Now.ToString("yyyyMM"));
+            var mongodb = MongoDBHelper.GetMongoDB(dbName);
             var collection = mongodb.GetCollection<LogEntity>(splitTableStrategy.GetTableName());
             collection.InsertOne(entity);
         }

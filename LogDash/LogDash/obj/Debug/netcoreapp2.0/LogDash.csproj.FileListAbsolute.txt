@@ -15,3 +15,4 @@ D:\Project\LogDash\LogDash\bin\Debug\netcoreapp2.0\LogDash.Infrastructure.pdb
 D:\Project\LogDash\LogDash\bin\Debug\netcoreapp2.0\LogDash.Model.pdb
 D:\Project\LogDash\LogDash\bin\Debug\netcoreapp2.0\LogDash.Domain.dll
 D:\Project\LogDash\LogDash\bin\Debug\netcoreapp2.0\LogDash.Domain.pdb
+D:\Project\LogDash\LogDash\bin\Debug\netcoreapp2.0\appsettings.json

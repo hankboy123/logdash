@@ -1,4 +1,5 @@
-﻿using MongoDB.Bson;
+﻿using Microsoft.Extensions.Configuration;
+using MongoDB.Bson;
 using MongoDB.Driver;
 using System;
 using System.Collections.Generic;
@@ -9,15 +10,34 @@ namespace LogDash.Infrastructure
 {
     public class MongoDBHelper
     {
+
         //static Octopus.Logging.ILogger logger = Octopus.Logging.LogManager.GetLogger("MongoDBHelper");
 
-        private static string connString = string.Empty;// System.Configuration.ConfigurationManager.AppSettings["MongoConnectionString"];
-        private static string dbName = string.Empty;// System.Configuration.ConfigurationManager.AppSettings["MongoDBName"];
+        private static string connString = string.Empty;
+        private static string dbName = string.Empty;
 
         //副本集服务器
-        private static string relicaSetName = string.Empty;// System.Configuration.ConfigurationManager.AppSettings["MongoDBRelicaSetName"];
-        private static string relicaSetServers = string.Empty;//System.Configuration.ConfigurationManager.AppSettings["MongoDBRelicaSetServers"];
+        private static string relicaSetName = string.Empty;
+        private static string relicaSetServers = string.Empty;
+        public static IConfiguration Configuration { get; set; }
 
+        
+
+        static  MongoDBHelper()
+        {
+
+            var builder = new ConfigurationBuilder()
+            .SetBasePath(AppContext.BaseDirectory)
+            .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
+            Configuration = builder.Build();
+           
+            //connString = Configuration.GetValue<string>("MongoConnectionString");
+            //dbName = Configuration.GetValue<string>("MongoDBName");
+            connString = Configuration.GetSection("MongoConnectionString").Value;
+            dbName = Configuration.GetSection("MongoDBName").Value;
+            relicaSetName = Configuration.GetSection("MongoDBRelicaSetName").Value;
+            relicaSetServers = Configuration.GetSection("MongoDBRelicaSetServers").Value;
+        }
 
         public static IMongoDatabase GetMongoDB()
         {

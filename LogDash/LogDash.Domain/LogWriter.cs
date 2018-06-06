@@ -37,7 +37,7 @@ namespace LogDash.Domain
             {
                 entity = new LogEntity();
                 entity.AppId = para.ParaDic["appid"];
-                entity.Id = entity.AppId+ entity.LogTypeId+DateTime.Now.ToString("yyyyMMdd");
+                entity.Id = entity.AppId+ entity.LogTypeId+DateTime.Now.ToString("yyyyMMddHHmmss");
                 entity.LogTypeId = para.ParaDic["logtypeid"];
                 entity.LogTypeName = para.ParaDic["logtypename"];
                 entity.Description = para.ParaDic["description"];
